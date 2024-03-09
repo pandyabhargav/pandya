@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faq</title>
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_bootstrap@5.0.2_dist_css_bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+    <header class="navbar navbar-dark navbar-expand-xl">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/Logo-Edit.png" alt="Logo-Edit"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="service.html">Services</a>
+                    </li>
+
+                    <li class="nav-item dropdown px-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          featurse
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item nav-link" href="team.html">Team</a></li>
+                          <li><a class="dropdown-item nav-link" href="faq.html">FAQ</a></li>
+                          <li><a class="dropdown-item nav-link" href="Error.html">404 Page</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item px-2">
+                        <a class="nav-link" href="Error.html">bloag</a>
+                      </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="contect.html">contect us</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="bg-banerer5 position-relative">
+        <div class="card-bg-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="error-tag baner-tag col-12 position-relative flex-wrap d-flex justify-content-center align-items-center p-5" data-aos="zoom-in">
+                    <h2 class="col-12">404</h2>
+                    <h4 class="p-0 col-12">Page Not Found</h4>
+                    <p class="col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus<br> nec ullamcorper
+                        mattis, pulvinar dapibus leo.</p>
+                    <button type="button" class="btn bike-1 btn-outline-warning border-4  px-5 py-3 mt-3 mb-3"><a href="index.html" class="text-white">Back to Home</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.0.2_dist_js_bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(".que").click(function () {
+                $(this).next(".ans").slideToggle().siblings(".ans").slideUp()
+            });
+        });
+    </script>
+    <script>
+
+        $(".que").click(function () {
+            $(this).addClass("active1").siblings(".que").removeClass("active1");
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,940 @@
+body h1,
+h2,
+p,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+    text-transform: capitalize;
+}
+
+.pb-120 {
+    margin-bottom: 120px;
+}
+
+.navbar-brand img {
+    width: 165px;
+}
+
+.navbar {
+    background-color: transparent;
+    z-index: 99999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header i {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover i {
+    color: #EBA839;
+    transition: all 0.5s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #EBA839;
+    transition: all 0.5s;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #EBA839;
+}
+
+.dropdown-menu {
+    background-color: #000000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.dropdown-item:hover {
+    background-color: #000000;
+}
+
+/* baner */
+.baner {
+    background-image: url(../images/bike.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.baner-txt h4 {
+    font-size: 38px;
+    color: #EBA83A;
+    font-weight: 500;
+    display: flex;
+    justify-content: start;
+    font-family: 'Archivo';
+}
+
+.baner-txt h1 {
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Archivo';
+    display: flex;
+    justify-content: start;
+}
+
+.baner-txt p {
+    color: aliceblue;
+    display: flex;
+    justify-content: start;
+}
+
+.btn {
+    color: white;
+    font-size: 20px;
+}
+
+.btn a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover a {
+    color: #EBA83A;
+    transition: all 0.5s;
+}
+
+.btn-outline-warning {
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-warning:hover {
+    color: white;
+    border-color: #EBA83A;
+    transition: all 0.5s;
+}
+
+/* card */
+.card-bg {
+    background-image: url(../images/metallic-texture-e1632896551270.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.card-bg-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #0202026f;
+    opacity: 0.7;
+}
+
+.bg-card {
+    background-color: rgb(254, 254, 254);
+}
+
+.bg-card h4 {
+    font-size: 25px;
+    font-family: 'Archivo';
+}
+
+.bg-card h4 i {
+    font-size: 35px;
+    color: #EBA839;
+}
+
+.bg-card:hover i {
+    color: aliceblue;
+    transition: all 0.3s;
+}
+
+.bg-card {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: bottom center;
+    background: #EBA839;
+    z-index: -1;
+    transition: transform 0.5s;
+}
+
+.bg-card:hover::after {
+    transform: scaleY(1);
+}
+
+/* bike */
+.bike {
+    width: 62%;
+    border-style: solid;
+    border-width: 15px 15px 15px 15px;
+    border-color: white;
+    position: absolute;
+    top: 40%;
+    right: 0%;
+}
+
+.bike-text h4 {
+    color: #EBA83A;
+    font-size: 30px;
+    font-family: 'Archivo';
+}
+
+.bike-text h2 {
+    color: black;
+    font-family: 'Archivo';
+    font-size: 50px;
+}
+
+.small-text {
+    font-family: 'Cambay';
+    font-size: 16px;
+}
+
+.btn-outline-warning1 {
+    color: #EBA83A;
+    border-color: #EBA83A;
+}
+
+.btn-outline-warning1:hover {
+    color: white;
+    background-color: #EBA839;
+    border-color: #EBA83A;
+    transition: all 0.5s;
+}
+
+/* bg--overlay */
+.bg--overlay {
+    background-image: url(../images/mechanic.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-img-text h4 {
+    font-size: 30px;
+    font-family: 'Archivo';
+    color: #EBA83A;
+    display: flex;
+    justify-content: start;
+}
+
+.bg-img-text h2 {
+    font-size: 50px;
+    font-family: 'Archivo';
+    color: white;
+    display: flex;
+    justify-content: start;
+}
+
+.bg-img-text p {
+    font-size: 16px;
+    font-family: 'cambay';
+    color: white;
+    display: flex;
+    justify-content: start;
+}
+
+.bg-card h4 {
+    color: #EBA839;
+    display: flex;
+    justify-content: start;
+}
+
+.bg-card:hover h4 {
+    color: white;
+}
+
+.bg-card p {
+    color: rgb(7, 0, 0);
+}
+
+.bg-card:hover p {
+    color: rgb(255, 255, 255);
+}
+
+.icons {
+    color: rgb(0, 9, 16);
+    font-size: 50px;
+}
+
+.ancor a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: #EBA839;
+}
+
+.bg-card:hover a {
+    color: aliceblue;
+}
+
+/* Testimonials */
+.bg1-dark {
+    background-color: #000000;
+}
+
+.Testimonials h4 {
+    font-size: 30px;
+    color: #EBA839;
+    font-family: 'Archivo';
+    padding-top: 100px;
+}
+
+.Testimonials h2 {
+    font-size: 50px;
+    color: #0e0e0e;
+    font-family: 'Archivo';
+}
+
+.Testimonials h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.Testimonials h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.Testimonials p {
+    display: flex;
+    justify-content: center;
+}
+
+.qutes i {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-size: 40px;
+    color: #2d2b26;
+}
+
+.star i {
+    color: #EBA83A;
+    font-size: 22px;
+}
+
+.img img {
+    height: 80px;
+    width: 80px;
+}
+
+.img h6 {
+    font-size: 18px;
+    font-family: 'Archivo';
+    color: aliceblue;
+}
+
+.img p {
+    font-size: 16px;
+    color: #EBA839;
+}
+
+.bg-card1 {
+    background-color: #EBA839;
+    color: white;
+}
+
+.bg-card1 i {
+    color: aliceblue;
+}
+
+/* bike section */
+.bg-bike-img {
+    background-image: url(../images/motorcycle-standing-in-dark-building-in-rays-of-sunlight-e1632821714489.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.bike-text-2 h4 {
+    color: #EBA839;
+    font-size: 25px;
+    font-family: 'Archivo';
+    display: flex;
+    justify-content: start;
+}
+
+.bike-text-2 h2 {
+    color: #fafafa;
+    font-size: 50px;
+    font-family: 'Archivo';
+    display: flex;
+    justify-content: start;
+}
+
+.bike-text-2 p {
+    color: #fafafa;
+    font-size: 16px;
+    display: flex;
+    justify-content: start;
+}
+
+.logo-img img {
+    height: 130px;
+    width: auto;
+}
+
+/* Our Team */
+.our-team h4 {
+    font-size: 30px;
+    color: #EBA839;
+    font-family: 'Archivo';
+    display: flex;
+    justify-content: center;
+}
+
+.our-team h2 {
+    font-size: 50px;
+    color: #010100;
+    font-family: 'Archivo';
+    display: flex;
+    justify-content: center;
+}
+
+.our-team p {
+    font-size: 16px;
+    color: #010100;
+    display: flex;
+    justify-content: center;
+}
+
+.name-plate h4 {
+    font-size: 25px;
+    font-family: 'Archivo';
+    color: #EBA839;
+}
+
+.name-plate p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.name-plate {
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.bg-card2 {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-card2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: bottom center;
+    background: #0d0e1488;
+    z-index: 2;
+    transition: transform 0.5s;
+}
+
+.bg-card2:hover::after {
+    transform: scaleY(1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-1 {
+    background-color: #EBA839;
+    color: #ffffff;
+    height: 60px;
+    width: 60px;
+}
+
+.icon-1:hover {
+    background-color: #ffffff;
+    color: #EBA839;
+}
+
+.icon-1 i {
+    font-size: 25px;
+}
+
+.icon-o {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    width: 100%;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.bg-card2:hover .icon-o {
+    visibility: visible;
+
+}
+
+.card-bg1 {
+    background-image: url(../images/metallic-texture-e1632896551270.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.card-bg-overlay1 {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #020202f3;
+    opacity: 0.7;
+}
+
+.order h1 {
+    font-size: 50px;
+    font-family: 'Archivo';
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+}
+
+.p-order-tag {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+.blog h4 {
+    color: #EBA839;
+    font-size: 30px;
+    font-family: 'Archivo';
+    display: flex;
+    justify-content: start;
+}
+
+.blog h1 {
+    font-size: 50px;
+    font-family: 'Archivo';
+    color: #000000;
+}
+
+.blog p {
+    font-size: 16px;
+    color: #000000;
+    display: flex;
+    justify-content: start;
+}
+
+.card-1 img {
+    height: 350px;
+    width: 400px;
+}
+
+.card-1 h6 {
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Archivo';
+}
+
+.card-1 h6:hover {
+    font-size: 16px;
+    color: #EBA839;
+}
+
+.card-1 p {
+    justify-content: start;
+}
+
+.ptag-1 {
+    color: #96989B;
+    font-size: 12px;
+    align-items: center;
+}
+
+/* footer */
+footer {
+    background-color: #000000;
+}
+
+.logo-fotter img {
+    width: 60%;
+}
+
+.logo-fotter p {
+    font-size: 16px;
+    color: #fafafa;
+}
+
+.icons div {
+    height: 45px;
+    width: 45px;
+    background-color: #EBA839;
+    color: #fafafa;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.icons div:hover {
+    background-color: #ffffff;
+    color: #EBA839;
+    transition: all 0.3s;
+}
+
+.icons div i {
+    font-size: 20px;
+}
+
+.foter-tag {
+    font-size: 25px;
+    color: #EBA839;
+    font-family: 'Archivo';
+}
+
+.foter-tag1 p {
+    color: white;
+}
+
+.foter-tag1 p:hover {
+    color: #EBA839;
+    transition: all 0.3s;
+}
+
+.icon1 {
+    color: #EBA839;
+    font-size: 20px;
+}
+
+.form-control {
+    background-color: #262626;
+    border: 2px solid white;
+}
+
+.btn-1 {
+    border: 2px solid white;
+    color: #fafafa;
+}
+
+.btn-1:hover {
+    color: #fafafa;
+    background-color: #EBA839;
+}
+
+hr {
+    border: 2px solid #414141;
+
+}
+
+
+.gototop {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.gototop:hover img {
+    position: absolute;
+    background-image: url(../images/car-focus.webp);
+    bottom: 0px;
+    right: 0px;
+}
+
+/* about section */
+.bg-banrer1 {
+    background-image: url(../images/unsplash-qQ2o7JXiCLc.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+}
+
+.baner-tag h4 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Archivo';
+    text-align: center;
+    padding-top: 150px;
+}
+
+.baner-tag p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.orange {
+    color: #EBA839;
+}
+
+.tick p {
+    font-size: 16px;
+    font-family: 'Cambay';
+}
+
+.tick-mark {
+    color: #EBA839;
+}
+
+/* bg-banrer2 */
+.bg-banrer2 {
+    background-image: url(../images//mechanic.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+}
+
+/* bg-banrer3 */
+.bg-banerer3 {
+    background-image: url(../images/mechanic-at-work-confident-young-man-repairing-motorcycle-in-repair-shop-e1632886658874.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+}
+
+/* bg-faq */
+.bg-banerer4 {
+    background-image: url(../images/custom-motorcycle-caferacer-e1632802394230.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+}
+
+.que {
+    font-size: 18px;
+    color: #EBA839;
+    font-family: 'Archivo';
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #F3F3F3;
+}
+
+.que p {
+    margin: 0px;
+    padding: 5px;
+}
+
+.ans {
+    font-size: 16px;
+    font-family: 'Cambay';
+
+}
+
+.active1 {
+    color: #000000;
+    background-color: #EBA839;
+
+}
+
+/*404 */
+.bg-banerer5 {
+    background-image: url(../images/mechanic-building-vintage-style-cafe-racer-motorcycle-in-custom-garage-e1632732043479.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.error-tag h2 {
+    color: #EBA839;
+    font-size: 150px;
+    font-family: 'Archivo';
+    text-align: center;
+    padding-top: 22%;
+}
+
+.error-tag h4 {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Archivo';
+    text-align: center;
+}
+
+.bike-1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* contect */
+.bg-banrer6 {
+    background-image: url(../images/contectbner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+}
+
+.form-tag1 {
+    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 10%;
+}
+
+form {
+    background-color: white;
+}
+
+.form-tag h4 {
+    color: #EBA83A;
+    font-size: 30px;
+    font-family: 'Archivo';
+}
+
+.form-tag h2 {
+    color: black;
+    font-size: 50px;
+    font-family: 'Archivo';
+}
+
+.form-outline h3 {
+    font-size: 30px;
+    font-family: 'Archivo';
+}
+
+.form-control {
+    background-color: transparent;
+    border: 1px solid #DDDDDD;
+    padding: 15px;
+}
+.form-control:focus{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.form-control:hover {
+    background-color: transparent;
+    border: 1px solid #EBA83A;
+}
+
+
+.map-icon {
+    background-color: #EBA839;
+}
+
+.map-icon h4 {
+    color: #DDDDDD;
+    padding: 0px 8px;
+}
+
+.map-icon i {
+    font-size: 35px;
+    color: #DDDDDD;
+    transition: all 0.5s;
+}
+
+.map-icon:hover i {
+    color: #EBA839;
+}
+
+.map-icon:hover {
+    background-color: #000000;
+    transition: all 0.5s;
+}
+
+.map-icon:hover p {
+    color: white;
+    transition: all 0.5s;
+}
+
+.map-icon-1 {
+    background-color: white;
+    color: #000000;
+}
+
+.map-icon-1 i {
+    font-size: 35px;
+    color: black;
+    transition: all 0.5s;
+}
+
+.map-icon-1:hover i {
+    color: #EBA839;
+}
+
+.map-icon-1 h4 {
+    color: black;
+    padding: 0px 8px;
+}
+
+.map-icon-1:hover h4 {
+    color: white;
+    padding: 0px 8px;
+}
+
+.map-icon-1:hover p {
+    color: white;
+    transition: all 0.5s;
+}
+
+.map-icon-1:hover {
+    background-color: #000000;
+    transition: all 0.5s;
+}
+
+.soc-med h6{
+    font-size: 23px;
+    color: #000000;
+    font-family: 'Archivo';
+}
+
+.icons-1 div {
+    height: 45px;
+    width: 45px;
+    background-color: #EBA839;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.icons-1 div:hover {
+    background-color: black;
+    color:#EBA839;
+    transition: all 0.3s;
+}
+
+.icons-1 div i {
+    font-size: 20px;
+}

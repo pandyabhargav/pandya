@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Cambay';
+    src: url('../fonts/Cambay-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Cambay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cambay';
+    src: url('../fonts/Cambay-Bold.woff2') format('woff2'),
+        url('../fonts/Cambay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cambay';
+    src: url('../fonts/Cambay-Italic.woff2') format('woff2'),
+        url('../fonts/Cambay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cambay';
+    src: url('../fonts/Cambay-Regular.woff2') format('woff2'),
+        url('../fonts/Cambay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../fonts/ArchivoBlack-Regular.woff2') format('woff2'),
+        url('../fonts/ArchivoBlack-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,958 @@
+@media(max-width:575px) {
+    .container {
+        width: 100%;
+    }
+
+    .baner-txt h4 {
+        font-size: 22px;
+    }
+
+    .baner-txt h1 {
+        font-size: 44px;
+    }
+
+    .baner-txt p {
+        font-size: 13px;
+    }
+
+    .bg--overlay {
+        height: 100%;
+    }
+
+    .card-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-1 br {
+        display: none;
+    }
+
+    .bg-bike-img {
+        background-position: start start;
+    }
+
+    .bike-text-2 h6 {
+        font-size: 20px;
+    }
+
+    .bike-text-2 h4 {
+        font-size: 43px;
+    }
+
+    .bike-text-2 p {
+        font-size: 13px;
+    }
+
+    .logo-img img {
+        height: 86px;
+        width: auto;
+    }
+
+    .bike-btn {
+        font-size: 13px;
+    }
+
+    .bike-btn a {
+        font-size: 15px;
+    }
+
+    .our-team h4 {
+        font-size: 20px;
+
+    }
+
+    .our-team h2 {
+        font-size: 33px;
+
+    }
+
+    .our-team p {
+        font-size: 13px;
+
+    }
+
+    .bike-text-2 h4 {
+        font-size: 20px;
+    }
+
+    .bike-text-2 h2 {
+        font-size: 33px;
+    }
+
+    .bike-text-2 p {
+        font-size: 13px;
+
+    }
+
+    .bg-img-text h4 {
+        font-size: 20px;
+    }
+
+    .bg-img-text h2 {
+        font-size: 33px;
+    }
+
+    .bg-img-text p {
+        font-size: 13px;
+
+    }
+
+    .bike-text h4 {
+        font-size: 20px;
+    }
+
+    .bike-text h2 {
+        font-size: 33px;
+    }
+
+    .bike-text p {
+        font-size: 13px;
+
+    }
+
+    .Testimonials h4 {
+        font-size: 20px;
+    }
+
+    .Testimonials h2 {
+        font-size: 33px;
+    }
+
+    .Testimonials p {
+        font-size: 13px;
+    }
+
+    .order h1 {
+        font-size: 33px;
+
+    }
+
+    .p-order-tag {
+        font-size: 13px;
+
+    }
+
+    .blog h4 {
+        font-size: 24px;
+    }
+
+    .blog h1 {
+        font-size: 33px;
+    }
+
+    .blog p {
+        font-size: 13px;
+    }
+
+    /* contect */
+
+    .form-tag1 {
+        position: relative;
+        top: 0%;
+    }
+
+    .form-tag h4 {
+        font-size: 24px;
+    }
+
+    .form-tag h2 {
+        font-size: 33px;
+    }
+
+    .form-tag p {
+        font-size: 13px;
+    }
+
+    .soc-med {
+        justify-content: start;
+    }
+
+    .icons-1 {
+        justify-content: start;
+    }
+
+}
+
+@media(min-width:576px) {
+    .container {
+        width: 540;
+    }
+
+    .baner-txt h4 {
+        font-size: 22px;
+    }
+
+    .baner-txt h1 {
+        font-size: 44px;
+    }
+
+    .baner-txt p {
+        font-size: 13px;
+    }
+
+    .bg--overlay {
+        height: 100%;
+    }
+
+    .card-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-1 br {
+        display: none;
+    }
+
+    .bg-bike-img {
+        background-position: start start;
+    }
+
+    .bike-text-2 h6 {
+        font-size: 20px;
+    }
+
+    .bike-text-2 h4 {
+        font-size: 43px;
+    }
+
+    .bike-text-2 p {
+        font-size: 13px;
+    }
+
+    .logo-img img {
+        height: 86px;
+        width: auto;
+    }
+
+    .bike-btn {
+        font-size: 13px;
+    }
+
+    .bike-btn a {
+        font-size: 15px;
+    }
+
+    .our-team h4 {
+        font-size: 20px;
+
+    }
+
+    .our-team h2 {
+        font-size: 33px;
+
+    }
+
+    .our-team p {
+        font-size: 13px;
+
+    }
+
+    .bike-text-2 h4 {
+        font-size: 20px;
+    }
+
+    .bike-text-2 h2 {
+        font-size: 33px;
+    }
+
+    .bike-text-2 p {
+        font-size: 13px;
+
+    }
+
+    .bg-img-text h4 {
+        font-size: 20px;
+    }
+
+    .bg-img-text h2 {
+        font-size: 33px;
+    }
+
+    .bg-img-text p {
+        font-size: 13px;
+
+    }
+
+    .bike-text h4 {
+        font-size: 20px;
+    }
+
+    .bike-text h2 {
+        font-size: 33px;
+    }
+
+    .bike-text p {
+        font-size: 13px;
+
+    }
+
+    .Testimonials h4 {
+        font-size: 20px;
+    }
+
+    .Testimonials h2 {
+        font-size: 33px;
+    }
+
+    .Testimonials p {
+        font-size: 13px;
+    }
+
+    .order h1 {
+        font-size: 33px;
+
+    }
+
+    .p-order-tag {
+        font-size: 13px;
+
+    }
+
+    .blog h4 {
+        font-size: 24px;
+    }
+
+    .blog h1 {
+        font-size: 33px;
+    }
+
+    .blog p {
+        font-size: 13px;
+    }
+    .form-tag1 {
+        position: relative;
+        top: 0%;
+    }
+
+}
+
+@media(min-width:768px) {
+    .container {
+        width: 720;
+    }
+
+    .baner-txt h4 {
+        font-size: 34px;
+    }
+
+    .baner-txt h1 {
+        font-size: 80px;
+    }
+
+    .baner-txt p {
+        font-size: 15px;
+    }
+
+
+    .bg--overlay {
+        height: 100%;
+    }
+
+    .card-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-1 br {
+        display: none;
+    }
+
+    .bg-bike-img {
+        background-position: start start;
+    }
+
+    .bike-text-2 h6 {
+        font-size: 20px;
+    }
+
+    .bike-text-2 h4 {
+        font-size: 43px;
+    }
+
+    .bike-text-2 p {
+        font-size: 13px;
+    }
+
+    .logo-img img {
+        height: 86px;
+        width: auto;
+    }
+
+    .bike-btn {
+        font-size: 15px;
+    }
+
+    .bike-btn a {
+        font-size: 18px;
+    }
+
+    .our-team h4 {
+        font-size: 28px;
+
+    }
+
+    .our-team h2 {
+        font-size: 48px;
+
+    }
+
+    .our-team p {
+        font-size: 15px;
+
+    }
+
+    .bike-text-2 h4 {
+        font-size: 28px;
+    }
+
+    .bike-text-2 h2 {
+        font-size: 48px;
+    }
+
+    .bike-text-2 p {
+        font-size: 15px;
+
+    }
+
+    .bg-img-text h4 {
+        font-size: 28px;
+    }
+
+    .bg-img-text h2 {
+        font-size: 44px;
+    }
+
+    .bg-img-text p {
+        font-size: 15px;
+
+    }
+
+    .bike-text h4 {
+        font-size: 28px;
+    }
+
+    .bike-text h2 {
+        font-size: 48px;
+    }
+
+    .bike-text p {
+        font-size: 15px;
+
+    }
+
+    .Testimonials h4 {
+        font-size: 28px;
+    }
+
+    .Testimonials h2 {
+        font-size: 48px;
+    }
+
+    .Testimonials p {
+        font-size: 15px;
+    }
+
+    .order h1 {
+        font-size: 48px;
+
+    }
+
+    .p-order-tag {
+        font-size: 15px;
+
+    }
+
+    .blog h4 {
+        font-size: 28px;
+    }
+
+    .blog h1 {
+        font-size: 48px;
+    }
+
+    .blog p {
+        font-size: 15px;
+    }
+}
+
+@media(min-width:992px) {
+    .container {
+        width: 960;
+    }
+
+    .baner-txt h4 {
+        font-size: 34px;
+    }
+
+    .baner-txt h1 {
+        font-size: 80px;
+    }
+
+    .baner-txt p {
+        font-size: 15px;
+    }
+
+
+    .bg--overlay {
+        height: 100%;
+    }
+
+    .card-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-1 br {
+        display: none;
+    }
+
+    .bg-bike-img {
+        background-position: start start;
+    }
+
+    .bike-text-2 h6 {
+        font-size: 20px;
+    }
+
+    .bike-text-2 h4 {
+        font-size: 43px;
+    }
+
+    .bike-text-2 p {
+        font-size: 13px;
+    }
+
+    .logo-img img {
+        height: 86px;
+        width: auto;
+    }
+
+    .bike-btn {
+        font-size: 15px;
+    }
+
+    .bike-btn a {
+        font-size: 18px;
+    }
+
+    .our-team h4 {
+        font-size: 28px;
+
+    }
+
+    .our-team h2 {
+        font-size: 48px;
+
+    }
+
+    .our-team p {
+        font-size: 15px;
+
+    }
+
+    .bike-text-2 h4 {
+        font-size: 28px;
+    }
+
+    .bike-text-2 h2 {
+        font-size: 48px;
+    }
+
+    .bike-text-2 p {
+        font-size: 15px;
+
+    }
+
+    .bg-img-text h4 {
+        font-size: 28px;
+    }
+
+    .bg-img-text h2 {
+        font-size: 44px;
+    }
+
+    .bg-img-text p {
+        font-size: 15px;
+
+    }
+
+    .bike-text h4 {
+        font-size: 28px;
+    }
+
+    .bike-text h2 {
+        font-size: 45px;
+    }
+
+    .bike-text h2 br {
+        display: none;
+    }
+
+    .bike-text p {
+        font-size: 15px;
+
+    }
+
+    .Testimonials h4 {
+        font-size: 28px;
+    }
+
+    .Testimonials h2 {
+        font-size: 48px;
+    }
+
+    .Testimonials p {
+        font-size: 15px;
+    }
+
+    .order h1 {
+        font-size: 48px;
+
+    }
+
+    .p-order-tag {
+        font-size: 15px;
+
+    }
+
+    .blog h4 {
+        font-size: 28px;
+    }
+
+    .blog h1 {
+        font-size: 48px;
+    }
+
+    .blog p {
+        font-size: 15px;
+    }
+
+    .soc-med h6 {
+        font-size: 18px;
+    }
+
+    .form-tag h2 {
+        font-size: 45px;
+    }
+
+
+}
+
+@media(min-width:1200px) {
+    .container {
+        width: 1140;
+    }
+
+    .baner-txt h4 {
+        font-size: 38px;
+    }
+
+    .baner-txt h1 {
+        font-size: 90px;
+    }
+
+    .baner-txt p {
+        font-size: 16px;
+    }
+
+
+    .bg--overlay {
+        height: 100%;
+    }
+
+    .card-1 img {
+        height: 300px;
+        width: 346px;
+    }
+
+    .card-1 br {
+        display: block;
+    }
+
+    .bg-bike-img {
+        background-position: start start;
+    }
+
+    .bike-text-2 h6 {
+        font-size: 30px;
+    }
+
+    .bike-text-2 h4 {
+        font-size: 50px;
+    }
+
+    .bike-text-2 p {
+        font-size: 16px;
+    }
+
+    .logo-img img {
+        height: 130px;
+        width: auto;
+    }
+
+    .bike-btn {
+        font-size: 16px;
+    }
+
+    .bike-btn a {
+        font-size: 18px;
+    }
+
+    .our-team h4 {
+        font-size: 30px;
+    }
+
+    .our-team h2 {
+        font-size: 50px;
+    }
+
+    .our-team p {
+        font-size: 16px;
+
+    }
+
+    .bike-text-2 h4 {
+        font-size: 30px;
+    }
+
+    .bike-text-2 h2 {
+        font-size: 50px;
+    }
+
+    .bike-text-2 p {
+        font-size: 16px;
+
+    }
+
+    .bg-img-text h4 {
+        font-size: 30px;
+        ;
+    }
+
+    .bg-img-text h2 {
+        font-size: 50px;
+    }
+
+    .bg-img-text p {
+        font-size: 16px;
+    }
+
+    .bike-text h4 {
+        font-size: 30px;
+    }
+
+    .bike-text h2 {
+        font-size: 42px;
+    }
+
+    .bike-text h2 br {
+        display: none;
+    }
+
+    .bike-text p {
+        font-size: 16px;
+
+    }
+
+    .Testimonials h4 {
+        font-size: 30px;
+    }
+
+    .Testimonials h2 {
+        font-size: 50px;
+    }
+
+    .Testimonials p {
+        font-size: 16px;
+    }
+
+    .order h1 {
+        font-size: 50px;
+
+    }
+
+    .p-order-tag {
+        font-size: 16px;
+
+    }
+
+    .blog h4 {
+        font-size: 30px;
+    }
+
+    .blog h1 {
+        font-size: 50px;
+    }
+
+    .blog p {
+        font-size: 16px;
+    }
+
+    .soc-med h6 {
+        font-size: 24px;
+    }
+    .form-tag1 {
+        box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
+        position: relative;
+        top: -10%;
+    }
+
+}
+
+@media(min-width:1400px) {
+    .container {
+        width: 1320;
+    }
+
+    .baner-txt h4 {
+        font-size: 38px;
+    }
+
+    .baner-txt h1 {
+        font-size: 90px;
+    }
+
+    .baner-txt p {
+        font-size: 16px;
+    }
+
+
+    .bg--overlay {
+        height: 100%;
+    }
+
+    .card-1 img {
+        height: 350px;
+        width: 400px;
+    }
+
+    .card-1 br {
+        display: block;
+    }
+
+    .bg-bike-img {
+        background-position: start start;
+    }
+
+    .bike-text-2 h6 {
+        font-size: 30px;
+    }
+
+    .bike-text-2 h4 {
+        font-size: 50px;
+    }
+
+    .bike-text-2 p {
+        font-size: 16px;
+    }
+
+    .logo-img img {
+        height: 130px;
+        width: auto;
+    }
+
+    .bike-btn {
+        font-size: 16px;
+    }
+
+    .bike-btn a {
+        font-size: 18px;
+    }
+
+    .our-team h4 {
+        font-size: 30px;
+    }
+
+    .our-team h2 {
+        font-size: 50px;
+    }
+
+    .our-team p {
+        font-size: 16px;
+
+    }
+
+    .bike-text-2 h4 {
+        font-size: 30px;
+    }
+
+    .bike-text-2 h2 {
+        font-size: 50px;
+    }
+
+    .bike-text-2 p {
+        font-size: 16px;
+
+    }
+
+    .bg-img-text h4 {
+        font-size: 30px;
+        ;
+    }
+
+    .bg-img-text h2 {
+        font-size: 50px;
+    }
+
+    .bg-img-text p {
+        font-size: 16px;
+    }
+
+    .bike-text h4 {
+        font-size: 30px;
+    }
+
+    .bike-text h2 {
+        font-size: 42px;
+    }
+
+    .bike-text h2 br {
+        display: none;
+    }
+
+    .bike-text p {
+        font-size: 16px;
+
+    }
+
+    .Testimonials h4 {
+        font-size: 30px;
+    }
+
+    .Testimonials h2 {
+        font-size: 50px;
+    }
+
+    .Testimonials p {
+        font-size: 16px;
+    }
+
+    .order h1 {
+        font-size: 50px;
+
+    }
+
+    .p-order-tag {
+        font-size: 16px;
+
+    }
+
+    .blog h4 {
+        font-size: 30px;
+    }
+
+    .blog h1 {
+        font-size: 50px;
+    }
+
+    .blog p {
+        font-size: 16px;
+    }
+    .form-tag1 {
+        box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
+        position: relative;
+        top: -10%;
+    }
+
+}
