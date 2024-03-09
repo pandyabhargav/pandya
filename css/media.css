@@ -171,6 +171,10 @@
     .icons-1 {
         justify-content: start;
     }
+    .dropdown-menu, .navbar-collapse {
+        background-color: #000000;
+    }
+    
 
 }
 
@@ -636,7 +640,7 @@
         font-size: 45px;
     }
 
-
+   
 }
 
 @media(min-width:1200px) {
@@ -796,6 +800,9 @@
         box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
         position: relative;
         top: -10%;
+    }
+    .navbar-collapse {
+        background-color: transparent;
     }
 
 }

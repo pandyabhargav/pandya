@@ -47,7 +47,7 @@ header i {
     color: #EBA839;
 }
 
-.dropdown-menu {
+.dropdown-menu, .navbar-collapse {
     background-color: #000000;
 }
 
